@@ -13,6 +13,6 @@
 
 ### Créditos
 
-- Layout da lista foi baseada no  codepen do [Carlos Avila
-](https://codepen.io/cb2307/pen/XYxyeY)
+- Layout da lista foi baseada no codepen do [Carlos Avila
+  ](https://codepen.io/cb2307/pen/XYxyeY)
 - Layout do video foi baseado no codepen do [Benjamin Pott](https://codepen.io/benjipott/pen/JELELN)

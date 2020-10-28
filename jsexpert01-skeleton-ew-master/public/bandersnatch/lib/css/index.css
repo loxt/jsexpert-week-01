@@ -2,10 +2,10 @@
   Player Skin Designer for Video.js
   http://videojs.com
 
-  To customize the player skin edit 
-  the CSS below. Click "details" 
+  To customize the player skin edit
+  the CSS below. Click "details"
   below to add comments or questions.
-  This file uses some SCSS. Learn more  
+  This file uses some SCSS. Learn more
   at http://sass-lang.com/guide)
 
   This designer can be linked to at:
@@ -18,6 +18,7 @@
   font-weight: 400;
   font-style: normal;
 }
+
 .video-js {
   /* The base font size controls the size of everything, not just text.
      All dimensions use em-based sizes so that the scale along with the font size.
@@ -32,7 +33,7 @@
    of the button is the center, but there is trend towards moving it to a corner
    where it gets out of the way of valuable content in the poster image.*/
 .vjs-default-skin .vjs-big-play-button {
-  /* The font size is what makes the big play button...big. 
+  /* The font size is what makes the big play button...big.
      All width/height values use ems, which are a multiple of the font size.
      If the .video-js font-size is 10px, then 3em equals 30px.*/
   font-size: 4em;
@@ -68,6 +69,7 @@
   vertical-align: middle;
   height: 100%;
 }
+
 .video-js .vjs-volume-menu-button .vjs-menu-content .vjs-volume-bar {
   display: inline-block;
   vertical-align: middle;
@@ -78,18 +80,23 @@
 .video-js .vjs-control:before {
   font-family: nf-icon;
 }
+
 .video-js .vjs-control.vjs-play-control:before {
   content: "\e646";
 }
+
 .video-js .vjs-control.vjs-play-control.vjs-playing:before {
   content: "\e645";
 }
+
 .video-js .vjs-control.vjs-fullscreen-control:before {
   content: "\e642";
 }
+
 .video-js .vjs-control.vjs-volume-menu-button:before {
   content: "\e630";
 }
+
 .video-js .vjs-control.vjs-captions-button:before {
   content: "\e650";
 }
@@ -111,10 +118,12 @@
   bottom: 2em;
   border-radius: 0.5em;
 }
+
 .video-js .vjs-control-bar:hover .vjs-progress-control {
   opacity: 1;
   top: -2.5em;
 }
+
 .video-js .vjs-control-bar .vjs-menu {
   z-index: 2;
   height: 100%;
@@ -158,6 +167,7 @@
   background: #b7090b;
   font-size: 1.3em;
 }
+
 .video-js .vjs-play-progress:before {
   transition: width 0.1s ease-out, height 0.1s ease-out;
   content: "";
@@ -169,6 +179,7 @@
   border-radius: 50%;
   box-shadow: #000 0 0 2px;
 }
+
 .video-js .vjs-play-progress:hover:before {
   width: 1.1em;
   height: 1.1em;
@@ -187,12 +198,15 @@
   z-index: 1;
   opacity: 0;
 }
+
 .video-js .vjs-progress-control:hover .vjs-progress-holder {
   font-size: inherit;
 }
+
 .video-js .vjs-progress-control .vjs-mouse-display {
   background: #cacaca;
 }
+
 .video-js .vjs-progress-control .vjs-mouse-display:before {
   top: 100%;
   border: solid transparent;
@@ -210,6 +224,7 @@
   background: #cacaca !important;
   color: #b7090b;
 }
+
 .video-js .vjs-time-tooltip:before {
   top: 100%;
   border: solid transparent;
@@ -260,9 +275,11 @@
   animation: vjs-spinner-fade-out 2s linear 1;
   animation-delay: 2s;
 }
+
 .vjs-loading-spinner:before, .vjs-loading-spinner:after {
   border: none;
 }
+
 .vjs-loading-spinner:after {
   background-image: url(../img/site-spinner.png);
   background-repeat: no-repeat;
@@ -297,6 +314,7 @@
     visibility: visible;
   }
 }
+
 @keyframes vjs-spinner-fade-out {
   0% {
     opacity: 1;
@@ -319,6 +337,7 @@
   width: 100%;
   height: 100px;
 }
+
 /* Show the controls (hidden at the start by default) */
 
 .video-js .vjs-control-bar {
@@ -327,6 +346,7 @@
   display: -ms-flexbox;
   display: flex;
 }
+
 /* Make the demo a little prettier */
 
 body {
@@ -371,17 +391,21 @@ a:visited {
   color: white;
   text-align: center;
 }
+
 .overlay .videoButtonWrapper {
   flex-direction: row;
   margin-bottom: 10px;
 }
+
 .videoBackgroundWrapper {
   position: relative;
   width: 100%;
 }
+
 .videoBackground {
   width: 100%;
 }
+
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
