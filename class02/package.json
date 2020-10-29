@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "assets": "http-server --cors -p 8081 assets/",
-    "dev": "http-server --cors -p 8080 assets/"
+    "dev": "http-server --cors -p 8080 public/"
   },
   "dependencies": {
     "http-server": "^0.12.3"
